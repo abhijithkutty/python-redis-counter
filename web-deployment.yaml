@@ -1,0 +1,46 @@
+---
+apiVersion: apps/v1
+kind: Deployment
+metadata:
+  name: counter
+  labels:
+    app: web-counter
+spec:
+  replicas: 3
+  selector:
+    matchLabels:
+      app: web-counter
+  template:
+    metadata:
+      labels:
+        app: web-counter
+    spec:
+      containers:
+      - name: web-counter
+        imagePullPolicy: Always
+        image: abhijithkandankutty/counter:v1
+        ports:
+        - containerPort: 8000
+
+---
+apiVersion: apps/v1
+kind: Deployment
+metadata:
+  name: redis-counter
+  labels:
+    app: web-counter
+spec:
+  replicas: 1
+  selector:
+    matchLabels:
+      app: web-counter
+  template:
+    metadata:
+      labels:
+        app: web-counter
+    spec:
+      containers:
+      - name: web-counter-redis
+        image: redis:alpine
+        ports:
+        - containerPort: 6379
