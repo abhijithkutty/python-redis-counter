@@ -89,6 +89,6 @@ What I like about my solution
 
 What I dislike about my solution
 -------------------------------
-1. EKS setup will require some tweaks to make the application accessible in your lab.
+1. EKS setup may require some tweaks to make the application accessible in your lab.
 
 
