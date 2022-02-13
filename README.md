@@ -20,7 +20,7 @@ Steps to deploy the counter application in Minikube ( local or cloud)
 
 3. Access the application using the displayed URL.
  
-   curl -v URL
+   curl -v [URL]
 
 
 
@@ -44,7 +44,7 @@ Steps to setup Prometheus & Grafana using Helm Chart.
 
 4. You can access Grafana for monitoring K8 cluster.
 
-   http://<publicip>/<localhost>:3000
+   http://[publicip]/[localhost]:3000
    
 
   
@@ -77,7 +77,7 @@ Additionally, Steps to deploy the counter application in AWS EKS.
    
    sh eks-launch.sh
 
-8. Access the application using http://<Loadbalancer service external ip>:30080/counter
+8. Access the application using http://[Loadbalancer service external ip]:30080/counter
 
 
 What I like about my solution
