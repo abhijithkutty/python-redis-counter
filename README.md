@@ -20,7 +20,7 @@ Steps to deploy the counter application in Minikube ( local or cloud)
 
 3. Access the application using the displayed URL.
  
-   curl -v <url>
+   curl -v URL
 
 
 
