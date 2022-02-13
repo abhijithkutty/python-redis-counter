@@ -63,7 +63,7 @@ Additionally, Steps to deploy the counter application in AWS EKS.
    eksctl create cluster --name web --version 1.21 --region us-east-1 --nodegroup-name standard-workers --node-type t3.micro --nodes 3 --nodes-min 1 --nodes-max 4 --managed
    
   
-  It will take 10–15 minutes since it's provisioning the control plane and worker nodes, attaching the worker nodes to the control plane, and creating the VPC, security group, and Auto Scaling group.
+    It will take 10–15 minutes since it's provisioning the control plane and worker nodes, attaching the worker nodes to the control plane, and creating the VPC,       security group, and Auto Scaling group.
 
 5. Connect to the cluster
 
