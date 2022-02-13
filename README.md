@@ -24,8 +24,8 @@ Steps to deploy the counter application in Minikube ( local or cloud)
 
 
 
-**Steps to setup Prometheus & Grafana using Helm Chart.
-------------------------------------------------------**
+Steps to setup Prometheus & Grafana using Helm Chart.
+------------------------------------------------------
 
 1. Install helm chart from Helm Repository
 
@@ -49,8 +49,8 @@ Steps to deploy the counter application in Minikube ( local or cloud)
 
   
 
-**Additionally, Steps to deploy the counter application in AWS EKS.
--------------------------------------------------------------------**
+Additionally, Steps to deploy the counter application in AWS EKS.
+-------------------------------------------------------------------
 
 1. Create an IAM user with full administrator programmatic access. Secure access key and secret key.
 
@@ -80,15 +80,15 @@ Steps to deploy the counter application in Minikube ( local or cloud)
 8. Access the application using http://<Loadbalancer service external ip>:30080/counter
 
 
-**What I like about my solution
------------------------------**
+What I like about my solution
+-----------------------------
 
 1. My application is highly available, scable and fault tolerant solution when deployed in cloud. I preferred AWS EKS.
 2. No chance of losing request messages.
 
 
-**What I dislike about my solution
+What I dislike about my solution
 
--------------------------------**
+-------------------------------
 1. EKS setup will require some tweaks to make the application accessible in your lab.
  
