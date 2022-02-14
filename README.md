@@ -73,7 +73,7 @@ Additionally, Steps to deploy the counter application in AWS EKS.
 
    git clone https://github.com/abhijithkutty/python-redis-counter.git
 
-7. Go inside the repository and execute web-launch shell script.
+7. Go inside the repository and execute eks-launch shell script.
    
    sh eks-launch.sh
 
