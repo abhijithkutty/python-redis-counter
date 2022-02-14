@@ -77,7 +77,7 @@ Additionally, Steps to deploy the counter application in AWS EKS.
    
    sh eks-launch.sh
 
-8. Access the application using http://[Loadbalancer service external ip]:30080/counter
+8. Access the application using http://[Loadbalancer service external ip]/counter
 
 
 What I like about my solution
