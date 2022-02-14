@@ -67,7 +67,7 @@ Additionally, Steps to deploy the counter application in AWS EKS.
 
 5. Connect to the cluster
 
-   aws eks update-kubeconfig --name web --region us-east-1
+   aws eks update-kubeconfig --name web-counter --region us-east-1
 
 6. Clone my Git repository where code is pushed.
 
